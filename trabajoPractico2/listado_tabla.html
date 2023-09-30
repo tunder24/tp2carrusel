@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado tabla</title>
+    <link rel="stylesheet" href="css/estilo_listado.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="index.html">Inicio</a></li>
+                <li class="menu-item"><a href="listado_box.html">Productos</a></li>
+                <li class="menu-item"><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+      <table class="estilo-tabla">
+        <thead>
+            <tr>
+                <th class="estilo-th">Nombre</th>
+                <th class="estilo-th">Precio</th>
+                <th class="estilo-th">Imagen</th>
+                <th class="estilo-th">Comprar</th>
+                <th class="estilo-th">Visualizar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Producto: Heineken -->
+            <tr>
+                <td class="estilo-td">Heineken</td>
+                <td class="estilo-td">$300</td>
+                <td class="estilo-td">
+                    <img class="estilo-imagenes-tabla" src="imagenes/heineken-logo-2.png" alt="Heineken">
+                </td>
+                <td class="estilo-td">
+                    <a class="estilo-main-a efecto-boton-main-a" href="formulario_compra.html">Comprar</a>
+                </td>
+                <td class="estilo-td">
+                    <a class="estilo-main-a efecto-boton-main-a" href="producto.html">Ver</a>
+                </td>
+            </tr>
+            <!-- Producto: Quilmes -->
+            <tr>
+                <td class="estilo-td">Quilmes</td>
+                <td class="estilo-td">$300</td>
+                <td class="estilo-td">
+                    <img class="estilo-imagenes-tabla" src="imagenes/Logo-Quilmes.jpg" alt="Quilmes">
+                </td>
+                <td class="estilo-td">
+                    <a class="estilo-main-a efecto-boton-main-a" href="formulario_compra.html">Comprar</a>
+                </td>
+                <td class="estilo-td">
+                    <a class="estilo-main-a efecto-boton-main-a" href="producto.html">Ver</a>
+                </td>
+            </tr>
+            <!-- Producto: Corona -->
+            <tr>
+                <td class="estilo-td">Corona</td>
+                <td class="estilo-td">$300</td>
+                <td class="estilo-td">
+                    <img class="estilo-imagenes-tabla" src="imagenes/69e12fed77bd88f4bf512070e97d232b.jpg" alt="Corona">
+                </td>
+                <td class="estilo-td">
+                    <a class="estilo-main-a efecto-boton-main-a" href="formulario_compra.html">Comprar</a>
+                </td>
+                <td class="estilo-td">
+                    <a class="estilo-main-a efecto-boton-main-a" href="producto.html">Ver</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-description">
+                  <p>Somos un ecommerce de venta de cerveza de calidad y variedad. Contamos con las mejores marcas y precios del mercado.</p>
+              </div>
+              <div class="footer-social">
+                  <p>Síguenos en:</p>
+                  <a href="#" class="social-link">Instagram: @cervezaya</a>
+                  <a href="#" class="social-link">WhatsApp: +54 376 1234567</a>
+              </div>
+              <div class="footer-copyright">
+                  <p>© 2023 Madelaire Corp. Todos los derechos reservados.</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="script/script.js"></script>
+</body>
+</html>

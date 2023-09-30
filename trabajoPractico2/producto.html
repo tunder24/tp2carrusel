@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo_listado.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="index.html">Inicio</a></li>
+                <li class="menu-item"><a href="listado_box.html">Productos</a></li>
+                <li class="menu-item"><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+  
+     <div class="descripcion_producto">
+        <h1>Cerveza heiniken</h1> 
+         <div id="imagen_producto"> 
+            <img src="imagenes/heineken-logo-2.png" alt="">
+             <h2>Cerveza de malta.</h2>
+            <h2>Se compra por cajon</h2>
+          <h2>Precio: $ 300</h2>
+        <a href="carrito.html">Ir al carrito </a>
+      </div>
+   </div>
+
+
+
+
+
+<div class="formulario_compra">
+    <h1>Formulario de Compra</h1>
+            <form action="procesar_compra.php" method="post">
+             <label for="nombre">Nombre:</label><br>
+               <input type="text" id="nombre" name="nombre"><br>   
+                <label for="direccion">Dirección:</label><br>
+                  <input type="text" id="direccion" name="direccion"><br>
+                 <label for="telefono">Teléfono:</label><br>
+               <input type="tel" id="telefono" name="telefono"><br>
+             <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+        <label for="medio_pago">Medio de Pago:</label><br>
+    <select id="medio_pago" name="medio_pago">
+		  <option value="">Seleccione un medio de pago</option>
+			  <option value="tarjeta_credito">Tarjeta de Crédito</option>
+			    <option value="transferencia_bancaria">Transferencia Bancaria</option>
+			    <option value="efectivo">Efectivo</option>
+			  <option value="paypal">PayPal</option>
+			<option value="otro">Otro</option>
+	  </select><br>
+	<label for="productos">Listado de Productos:</label><br>
+    <textarea id="productos" name="productos"></textarea><br>
+      <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+      </div>
+  <footer>
+      <div class="container">
+        <p>Somos un ecommerce de venta de cerveza de calidad y variedad. Contamos con las mejores marcas y precios del mercado. Síguenos en Instagram y WhatsApp para estar al tanto de nuestras ofertas y novedades.</p>
+          <p>Instagram: @cervezaya | WhatsApp: +54 376 1234567</p>
+        <p>© 2023 Madelaire Corp. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
